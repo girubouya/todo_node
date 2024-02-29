@@ -17,6 +17,7 @@ const extensions: Record<string, string | undefined> = {
   '.css': 'text/css',
 };
 //testGIT;;!
+//test2
 
 //サーバー起動
 server.listen(PORT, () => {
