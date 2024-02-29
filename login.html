@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/reset.css" />
+    <link rel="stylesheet" href="/public/todo.css" />
+    <title>TODO_Node</title>
+  </head>
+  <body>
+    <section class="todo">
+      <header>
+        <h1>Todo_Node(ログイン)</h1>
+      </header>
+      <section class="todo-list">
+        <form id="form" method="POST" action="/login">
+          <section>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" />
+          </section>
+          <section>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" />
+          </section>
+          <input type="submit" value="送信" />
+        </form>
+      </section>
+    </section>
+  </body>
+</html>

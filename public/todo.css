@@ -1,0 +1,58 @@
+body {
+  background-color: beige;
+  font-size: 20px;
+}
+
+.todo {
+  position: relative;
+  margin: 100px;
+}
+
+.todo h1 {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 100;
+  width: 100%;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.new {
+  position: relative;
+  margin: 0;
+  width: 70%;
+  font-size: 20px;
+  padding: 5px;
+  line-height: 1.5em;
+}
+
+.new-button {
+  margin: 0;
+  width: 20%;
+  font-size: 20px;
+}
+
+.todo-list {
+  background-color: aliceblue;
+}
+
+.todo-listitem {
+  margin-top: 30px;
+}
+
+.todo-listitem input[type='checkbox'] {
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.todo-listitem input[type='checkbox'] + label {
+  position: relative;
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.checkbox-label {
+  width: 400px;
+}
